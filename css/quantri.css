@@ -1,0 +1,325 @@
+a { color:#036; text-decoration:none; font-weight:bold}
+a:hover {text-decoration:underline}
+body {margin-top:0; background-color:#F2EEB3; 
+		font-family: "Times New Roman",Arial,Tahoma; }
+#wrapper{width:1260px; margin-top:0;margin:auto }
+#header{height:40px; margin-bottom:3px; background-color:#038D98}
+#menu{}
+#content{ min-height:430px; }
+#header h1{float:left; font-size:22px; color:yellow; margin:8px 0 0 0px; text-transform:uppercase; padding-left:10px }
+#header #chao{text-align:right; color:yellow; margin-right:10px; margin-top:10px; float:right}
+#header #chao p{margin:2px 0 5px 0}
+#header #chao a{color:yellow; text-decoration:none}
+#header #chao a:hover { color:#FFF}
+#menu a{ color:#FFF; display:block; text-decoration:none; padding: 5px 0px 5px 10px;  }
+#menu a:hover { background-color:#E23D80 }
+
+.form  { width:600px; margin-top:20px;margin-left:auto;margin-right:auto; 
+border:solid 2px #038D98; border-radius:5px;}
+.form h4 { text-align:center; margin:0; border-top-radius:8px;text-transform:uppercase; padding:5px}
+.form p {margin-top:10px; margin-bottom:10px}
+.form span {width:110px; float:left; color:#13A1CB; margin-left:20px}
+.form #btn { width:130px; height:35px; background-color:#003366; color:#FFF; border:solid 3px #036; border-radius:20px; cursor:pointer }
+.form .txt {width:400px; background-color:#11752C; color:yellow; padding:5px 0 5px 0  }
+.form select.txt{ text-align:left}
+
+#formalbum #imgcontainer img {margin-left: 5px; border:solid 1px #033; cursor: pointer;}
+
+#mediaplaylist_them {width:570px;  }
+#mediacontainer { margin:0; padding:0 0 0 30px;  }
+#mediacontainer .medianame {width:180px; background-color:#11752C; float:left; color:yellow}
+#mediacontainer li {clear:left; padding: 2px 0}
+#mediacontainer .xoa { width:25px; background:#C7B690; }
+#mediacontainer .up { width:25px; background:#C7B690; }
+#mediacontainer .mediafilename { width:250px; color:#13A1CB; margin-left:0px }
+.form  #chonfilemp3 { width:100px; height:25px; margin:0 0 10px 25px}
+
+.list {border-collapse:collapse}
+.list td {border: solid 1px #038D98}
+#listNews {table-layout:auto;}
+
+.list th { background-color:#038D98; color:#FFF; text-align:left}
+.list th a { color:white}
+.list .captionrow { background-color:#038D98; color:#FFF; height:37px; font-weight:bold;}
+.list .captionrow span {text-transform:uppercase; float:left; font-size:20px; color:yellow; font-weight:bold }
+.list .captionrow a {color:white; float:right; width:140px; text-align:center; font-size:18px; cursor:pointer;  }
+.list .captionrow a:hover {color:red;}
+.list .captionrow #search { float:left; margin:5px 0 0 10px}
+.list .captionrow #search .loai { color:#003366; width:220px; font-size:14px }
+.list .captionrow #search .tukhoa { color:#003366; width:100px; font-size:14px }
+.list .captionrow #search a { width:90px;  background:none; color:yellow;  }
+
+.captionrow2 {font-size:16px; text-align:center; font-weight:bold; color:#038D98 }
+.captionrow2 a {color:#038D98}
+.list .motbaiviet {font-size:18px;}
+.list .motbaiviet p { margin:0; text-align:justify; line-height:140%;}
+.list .motbaiviet img.xembv{margin-left:10px; height:70px; width:90px; border1:dotted 1px #038D98;}
+.list .motbaiviet h4.tieude { margin:0; text-align:left}
+.list .motbaiviet h4.tieude .ngaydang {font-style:italic; font-weight:normal}
+.list .motbaiviet span.xem{ font-style:italic; color:#00665E; }
+.list .motbaiviet .idbv, .list .motbaiviet .tenloai {color: #333; font-weight:normal; font-style:italic; }
+.list .motbaiviet .action_button p {margin:0; text-align:center}
+.list .motbaiviet .action_button .del  {width:25px ; height:25px; }
+.list .motbaiviet .action_button .edit  {width:25px ; height:25px; margin-right:15px;}
+.list .motbaiviet .action_button .dangbai  {width:20px ; height:18px; cursor:pointer}
+.list .motbaiviet .action_button .anhien  {width:20px ; height:20px; margin-left:8px;cursor:pointer}
+.list .motbaiviet .action_button .noibat  {width:20px ; height:20px; margin-left:8px;cursor:pointer}
+.list .txt1  {width:170px; background-color:#11752C; color:yellow; }
+.list .thutu {width:50px; background-color:transparent; border:solid 1px #09c; text-align:center}
+.list .thutubv {width:80px; background-color:transparent; border:solid 1px #09c; text-align:center; padding:3px 0 3px 0; }
+.list #hinhsave { position:relative ; top:2px; left:5px; cursor:pointer;}
+.list #tukhoatk { background-color:transparent; width:90px; border:solid 1px white; margin-left:20px; color:yellow; text-align:center}
+.list #header_col2{text-align:left}
+.list #sapxepbaiviettheo{width:200px; border:solid 1px #09c; padding:2px 0 2px 0; cursor:pointer; color:#f39; font-size:16px; font-family:times new roman }
+.list #header_col2 a {color:white; float:right; font-size:18px; text-transform:uppercase; margin-top:3px }
+.list .action {text-align:center; width:120px;}
+.list .action a {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3; -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3; 
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d));
+	background:-moz-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:-webkit-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:-o-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:-ms-linear-gradient(top, #ff5bb0 5%, #ef027d 100%);
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d',GradientType=0);
+	background-color:#ff5bb0; color:#ffffff;
+	-moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;
+	border:1px solid #ee1eb5; display:inline-block; cursor:pointer;	
+	font-family:arial;	font-size:15px;	font-weight:bold; 
+	padding:8px 28px; margin-top:5px;
+	text-decoration:none;  text-shadow:0px 1px 0px #c70067;
+}
+.list .action a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0));
+	background:-moz-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:-webkit-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:-o-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:-ms-linear-gradient(top, #ef027d 5%, #ff5bb0 100%);
+	background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0',GradientType=0);
+	background-color:#ef027d;
+}
+.list .action a:active { position:relative; top:1px; }
+
+
+
+#richContent{ display:table;border-collapse:separate;border-spacing:5px}
+#richContent_left{width:360px;  display:table-cell; min-height:500px;  border:1px solid #038D98;}
+#richContent_right{display:table-cell; min-height:500px; }
+
+
+#locbaiviet { min-height:730px; background-color:#FFF5EE; }
+#locbaiviet p:first-child{margin:0; padding:5px 0 5px 0; 
+	text-align:center; font-weight:bold; color:white; background:#008080;
+	position:relative; top:-5px; font-size:18px; color:yellow; text-transform:uppercase;
+}
+
+#locbaiviet  #selLoaiBV { width:180px; color:white; background:#008080; padding:3px 0 3px 0;  border:solid 1px #008080}
+#locbaiviet  #tukhoalocbv { width:180px; color:white; background:#008080; padding:4px 0 4px 0; border:solid 1px #008080 }
+#locbaiviet  #taglocbv { width:175px; color:white; background:#008080; padding:4px 0 4px 0; border:solid 1px #008080 }
+#locbaiviet  #btnlocbv, #locbaiviet  #btnclear {
+width:85px; padding:6px 0 5px 0; color:yellow; background:#038D98; border:none 1px #038D98; 
+cursor:pointer; border-radius:3px}
+#locbaiviet  #btnlocbv:hover, #locbaiviet  #btnclear:hover { background:#348017;}
+
+
+#locbaiviet #listBV_filtered {max-height:520px; overflow:scroll; overflow-x:hidden}
+#locbaiviet #listBV_filtered h4 { margin:15px 5px 0 10px; text-align:right}
+#locbaiviet #listBV_filtered p.tomtat { max-height:80px;margin:0 5px 0px 5px; line-height:140%; text-align:justify; overflow:hidden}
+#locbaiviet #listBV_filtered p.act { margin:0 5px 0 10px; text-align:right; border-bottom: solid 1px #CA226B;}
+#locbaiviet #listBV_filtered p.act img.chonbai { cursor:pointer}
+#locbaiviet #listBV_filtered p.act img.makelink { cursor:pointer}
+
+
+.formbv { margin:0 auto 0 auto; border:solid 1px #038D98; }
+.formbv h4 { text-align:left; margin:0; border-top-radius:8px;text-transform:uppercase;  font-size:20px}
+.formbv p {margin-top:5px; margin-bottom:5px}
+
+.formbv .btnsubmit, .formbv #btn {
+	width:150px;  font-size:15px;  letter-spacing:1px; font-family:arial;	font-weight:bold;
+	-moz-box-shadow: 0px 10px 14px -7px #276873; -webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #038D98), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #038D98 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #038D98 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #038D98 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #038D98 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #038D98 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#038D98', endColorstr='#408c99',GradientType=0);
+	background-color:#038D98; color:#ffffff;
+	-moz-border-radius:4px; -webkit-border-radius:4px;	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;		
+	padding:9px 0px;
+	text-decoration:none; text-shadow:0px 1px 0px #3d768a;
+}
+.formbv .btnsubmit:hover, .formbv #btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.formbv .btnsubmit:active, .formbv #btn:active { position:relative;	top:1px;}
+
+
+
+.formbv .txt {width:610px; background-color:#11752C; color:yellow; padding:3px 0 3px 8px;font-size:15px }
+.formbv  #tacgia {width:205px; background-color:#038D98; color:white; padding: 3px 3px 3px 8px;font-size:14px }
+.formbv #btnchontacgia {width:35px; background-color:#038D98; color:white; cursor:pointer; padding:5px 0 3px 0  }
+.formbv  #loaicha {width:245px; background-color:#038D98; color:white;padding:3px 0 3px 8px;font-size:14px }
+.formbv #urlhinh {width:240px}
+.formbv #tag {height:70px; width:365px; color:#157DEC; font-size:14px; margin:0; resize:none;}
+.formbv #hinhdaidien {width:115px; height:70px; float:right; margin-right:5px; }
+.formbv #hinhsharefacebook {width:115px; height:70px; float:right; margin-right:10px; }
+.formbv #tomtat { height:80px; resize:none; font-size:14px}
+.formbv .info span {width:80px; float:left; margin-left:5px}
+.formbv #chonfile {background-color:#003366; width:24px; border:solid 1px #003366; font-weight:bold; color:white;}
+
+#thanhphantrang { margin:10px}
+#thanhphantrang a { color:#FF0; font-weight:bold; text-decoration:none; 
+	margin-right:4px; margin-left:4px; padding-left:8px; padding-right:8px;
+	padding-top:5px; padding-bottom:5px; background-color:#033;
+	border-radius:15px;}
+#thanhphantrang span { color:#FFF; font-weight:bold; text-decoration:none; 
+	margin-right:4px; margin-left:4px; padding-left:8px; padding-right:8px;
+	padding-top:5px; padding-bottom:5px; background-color:#13A1CB;
+	border-radius:15px;}
+#thanhphantrang a:hover { color:#0F6; background-color:#930}
+
+
+/* trang thống kê*/
+#thongke {}
+#thongke fieldset {margin: 40px 10px 20px ; border-radius:6px; border:2px solid #06c;float:left; width:365px; height:270px }
+#thongke fieldset legend {color:#039; font-weight:bold; font-size:20px; }
+#thongke fieldset .nut { width:160px; height:40px;  margin:10px 10px 10px 10px; line-height:40px; 
+border:solid 1px #13A1CB; border-radius:5px; box-shadow:4px 4px 3px #036; float:left; }
+#thongke fieldset .nut a { display:block;  height:100%; color:#FFF; background-color:#038D98;font-weight:bold; 
+text-transform:uppercase; text-align:center; font-size:16px;}
+#thongke fieldset .nut a:hover {text-decoration:none; background-color:#069}
+#thongke #thongtin p {font-size:18px; margin-left:10px}
+
+
+.list .motykien p { margin:10px; text-align:justify; line-height: 150%;}
+.list .motykien span.anhien {font-weight:bold; color:#CC0033}
+.list .motykien span.ngay{ font-style:italic; color:#00665E; }
+.list .motykien span.suaxoa a {color:#CC0033; margin:10px}
+.list .motykien span.suaxoa img.anhien {cursor:pointer; margin: 0 0 -3px 0}
+.list #formykien .txt  {width:120px; background-color:#11752C; color:yellow; }
+
+#formsuaykien {width:700px}
+#formsuaykien #noidung {width:100%; height:320px; padding:10px 0 0 10px; font-size:14px; line-height:150%; }
+#formsuaykien #btnSua { width:130px; height:35px; background-color:#003366; color:#FFF; border:solid 3px #036; border-radius:20px; margin:-35px 20px 5px 0; }
+
+#formcauhinh { width:850px; margin:30px auto; border:solid 2px #038D98}
+#formcauhinh .txt {width:150px; margin-left:5px; height:30px}
+
+#loaibaivietTree { }
+#loaibaivietTree h4 {
+    background-color: #038D98; color: #FFF; margin:0;
+    font-weight: bold; height:40px; padding-left:10px; font-size:19px; text-transform:uppercase;
+	line-height:40px;
+}
+.colleft { width:170px; background:#6A9A6D}
+.colright { width:750px}
+
+#divche { width:5000px; height:5000px; background-color:#000; 
+   position:absolute; z-index:9; top:0; left:0; display:none}
+#divpopup{position:fixed; top:30px; left:300px; z-Index:10; 
+  display:none; background-color:#F5F1D8; border:solid 2px #033; box-shadow:5px 5px 3px #630;  }
+
+#baiviet_chontacgia { width:850px; }
+#baiviet_chontacgia h4 {margin:0}
+#baiviet_chontacgia #list_tacgia{width:850px;
+	text-align:left; font-size:14px;
+	column-count:4;-moz-column-count:4; -webkit-column-count:4;
+	column-rule:2px solid #003366;-webkit-column-rule:2px solid #003366;-moz-column-rule:2px solid #003366;
+}
+#baiviet_chontacgia #iconclose {float:right; margin: 1px 5px 0 0; cursor:pointer;}
+#baiviet_chontacgia #list_tacgia p {color:#B52735; cursor:pointer; padding-left:5px}
+#baiviet_chontacgia #list_tacgia p:hover {color:#19376A}
+#baiviet_chontacgia h4 {background-color:#B52735; color:white; padding:5px 0 5px 10px}
+
+/* doi pass*/
+#divchangepass { width:400px ; margin:50px auto; border: solid 2px #006633; border-radius:5px;box-shadow: 2px 2px 2px green; }
+#divchangepass h4 { text-align:center; padding: 5px 0 5px 0; text-transform:uppercase; 
+background-color:#006633; color:#FFFF00; margin:0}
+#divchangepass th {padding: 5px 0 5px 10px; text-align:left; font-weight:normal}
+#divchangepass td {padding: 5px 0 5px 0}
+#divchangepass .txt { width:220px; background-color:#11752C; border:solid 1px #11752C; padding:2px 0 2px 0; color:yellow; border-radius:3px }
+#divchangepass #btnChangepass { width:100px; height:30px; border:solid 1px #BC9326; background:#BC9326; color:white; border-radius:25px; box-shadow: 2px 2px 2px green; margin-bottom:10px; cursor:pointer; }
+#divchangepass .error { text-align:center; color:red;}
+
+/* quan tri user*/
+#formLocUser { width:600px; float:left;margin:0 }
+#formLocUser  #idgroup { width:140px; border:solid 1px #003366; padding: 2px 0 2px 0; color:#003366; margin-left:15px; }
+#formLocUser  #tukhoatimuser { width:120px; border:solid 1px #003366; padding: 3px 0 3px 0; text-align:center; color:#003366 }
+#formLocUser  #btnLocUser {width:70px; padding: 3px 0 3px 0;  border:solid 1px #003366; background-color:#BC9326; color:white; border-radius:3px}
+
+
+/* quan ly box*/
+#listboxContainer_left{width:400px; float:left; 
+margin-right:10px; min-height:550px; 
+border:solid 2px #11752C;border-radius:8px;}
+.boxform h4 { text-align:center; margin:0; text-transform:uppercase; padding:8px 0 8px 0; 
+background-color:#11752C; border-top-left-radius:5px; border-top-right-radius:5px; color:yellow}
+.boxform p {margin-top:10px 0 10px 0px}
+.boxform span {width:60px; float:left; color:	#FF6600; margin-left:5px}
+.boxform #btn { width:130px; height:35px; background-color:#003366; color:#FFF; border:solid 3px #036; border-radius:20px; }
+.boxform .txt {width:300px; background-color:#11752C; color:yellow;  }
+.boxform select.txt{ text-align:left}
+#btnluubox{ width:130px; height:35px; background-color:#003366; color:#FFF; border:solid 3px #036; border-radius:20px; }
+#btnboqua{ width:130px; height:35px; background-color:#8B001D; color:#FFF; border:solid 3px #8B001D; border-radius:20px; }
+
+#listboxContainer_right{
+width:830px; float:right; 
+margin-right:10px; min-height:550px; 
+border:solid 2px #11752C;border-radius:8px;
+}
+#listboxContainer_right #search{
+margin:0; text-transform:uppercase; padding:8px 0 8px 0; 
+background-color:#11752C; border-top-left-radius:5px; border-top-right-radius:5px; color:yellow
+}
+
+#listbox {-webkit-column-count: 3; -moz-column-count: 3; column-count: 3;}
+#listbox p { margin:0 0 10px 10px}
+#listbox p img { width:16px; height:16px; position:relative; top:2px; cursor:pointer; margin-right:5px }
+
+/* quantri tác giả*/
+#listtacgia #tukhoatk {padding: 5px;-moz-border-radius:4px;	-webkit-border-radius:4px;	border-radius:4px; }
+#listtacgia #btnloc {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
+	background-color:#3d94f6; color:#ffffff;
+	-moz-border-radius:6px;	-webkit-border-radius:6px;	border-radius:6px;
+	border:1px solid #337fed;  display:inline-block; 	cursor:pointer; 	
+	font-family:arial; font-size:14px; font-weight:bold; padding:5px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+#listtacgia #btnloc:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
+	background:-moz-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-webkit-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-o-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-ms-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6',GradientType=0);
+	background-color:#1e62d0;
+}
+#listtacgia #btnloc:active {
+	position:relative;
+	top:1px;
+}

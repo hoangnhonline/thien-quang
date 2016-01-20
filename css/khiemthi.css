@@ -1,0 +1,272 @@
+* {margin:0; padding:0}
+body {  }
+a { text-decoration:none}
+#all {background: #4F6A41 url(img/tile_008.jpg); background-repeat:repeat;
+font-size:18px; font-family: "Noto Serif","Times New Roman",Arial,Tahoma;
+ padding:5px;padding-bottom:25px; 
+}
+#wrap {width: 1250px;margin-right: auto; margin-left: auto;}
+#part2{background-color:white; display:table-row }
+#part2_1{width:975px; min-height:680px; background1:#26A2BC; display:table-cell;vertical-align:top;
+ box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+ }
+#part2_2{width:275px; min-height:680px;    display:table-cell; vertical-align:top;
+background:#3A4145; background: -moz-linear-gradient(top, rgba(105,175,229,0) 0%, rgba(43,176,216,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(105,175,229,0)), color-stop(100%,rgba(43,176,216,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(105,175,229,0) 0%,rgba(43,176,216,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(105,175,229,0) 0%,rgba(43,176,216,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(105,175,229,0) 0%,rgba(43,176,216,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(105,175,229,0) 0%,rgba(43,176,216,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0069afe5', endColorstr='#2bb0d8',GradientType=0 ); /* IE6-9 */
+
+box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.separator {clear:both; height:20px;  }
+.sep_col {display:table-cell; width:20px; background:transparent; }
+
+.box_caption {background:#26A2BC; color:white; height:40px; line-height:40px; 
+text-transform:uppercase; clear:both; font-size:20px; padding-left:10px; font-weight:bold }
+#dsbaiviet {}
+#dsbaiviet .motbai { border-bottom:solid 1px #26A2BC; }
+#dsbaiviet .motbai p {line-height:2em; text-align:justify; 
+font-size:18px; margin: 0 0 15px 20px; font-family:Noto Serif;
+ }
+#dsbaiviet a.tieude {display:block; margin: 20px 0 10px 10px; color:#26A2BC; font-weight:bold; 
+font-size:20px}
+#dsbaiviet a.tieude:hover{color:#FF8A00}
+#dsbaiviet .xemchitiet a {color:#ff3333; }
+#dsbaiviet .xemchitiet a:hover {font-weight:bold}
+
+#phapthoaitheonam .nam { }
+#phapthoaitheonam  p {margin:20px 0 20px 25px; }
+#phapthoaitheonam  p a{color:#ff0080; display:block; font-size:20px; }
+#phapthoaitheonam  p a:hover {color:#26A2BC; font-weight:bold}
+
+/* phim phat giao*/
+#videolist  .motchude {margin:20px 0 20px 25px; }
+#videolist   a{color:#ff0080; display:block;  }
+#videolist   a:hover {color:#26A2BC; font-weight:bold}
+#videolist  .mota { margin:5px 0 0 20px; font-size:16px; line-height:200%; text-align:justify }
+
+#videolist  p {margin:20px 0 20px 25px; }
+#videolist  p a{color:#ff0080; display:block; font-size:20px; }
+#videolist  p a:hover {color:#26A2BC; font-weight:bold}
+
+
+#chua-thien-quang{ width:96%; margin-left:2%; display:block;  margin-bottom:3px; }
+#menu_khuyemthi {margin:0; padding:0; list-style:none;  }
+#menu_khuyemthi li {height: 100px; width:96%; margin-left:2%; display:block;  margin-bottom:3px;}
+#menu_khuyemthi li a {font-family:Noto Serif; font-size:22px; height:100%; display:block;
+	padding: 15px 20px 0 10px; color:yellow; text-transform: capitalize;
+	font-weight:bold;  text-align:right;
+}
+#menu_khuyemthi li a:hover {color:#00FF00}
+
+#menu_khuyemthi li#trangchu{background:#2EA1EF url(img/icon_home.png); background-repeat: no-repeat; background-position:10px 10px;}
+#menu_khuyemthi li#trangchu:hover { background-position:155px 22px;}
+#menu_khuyemthi li#trangchu a:hover {padding: 8px 120px 0 0px; color:#FF8A00;  letter-spacing:0.05em;}
+
+#menu_khuyemthi li#tintuc{background:#26EDF7 url(img/icon_news.png); background-repeat: no-repeat; background-position:10px 10px;}
+#menu_khuyemthi li#tintuc:hover { background-position:155px 12px;}
+#menu_khuyemthi li#tintuc a {color:green}
+#menu_khuyemthi li#tintuc a:hover {padding: 15px 80px 0 5px; color:#FF8A00; letter-spacing:0.05em; text-align:left;}
+#menu_khuyemthi li#khoatu{background:#004A23 url(img/icon_khoatu.png); background-repeat: no-repeat; background-position:10px 12px;}
+#menu_khuyemthi li#khoatu:hover { background-position:165px 12px;}
+#menu_khuyemthi li#khoatu a:hover {padding: 25px 120px 0 5px; color:white; letter-spacing:0.05em;}
+
+#menu_khuyemthi li#phapthoai{background:#FF8A00 url(img/icon_phapthoai1.png); background-repeat: no-repeat; background-position:0px 0px;
+-webkit-transition: -webkit-transform .8s ease-in-out; transition: transform .8s ease-in-out;
+}
+#menu_khuyemthi li#phapthoai:hover { background-position:155px 0px;-webkit-transform: rotate(360deg); transform: rotate(360deg);}
+#menu_khuyemthi li#phapthoai a:hover {padding: 15px 100px 0 5px; color:white; letter-spacing:0.05em;}
+
+#menu_khuyemthi li#lienhe{background:#258905}
+#menu_khuyemthi li#baiviethay_sobo{background:#7FBA00}
+
+
+#menu_khuyemthi li#ducphat{background:#E9760C url(img/icon_ducphat.png); background-repeat: no-repeat; background-position:10px 10px;}
+#menu_khuyemthi li#ducphat a{padding: 15px 20px 0 100px; }
+#menu_khuyemthi li#ducphat a:hover {text-transform:uppercase }
+
+#menu_khuyemthi li#giaoly{background:#FB8479 url(img/icon_giaoly.gif); background-position:15px 12px; background-repeat: no-repeat; }
+#menu_khuyemthi li#giaoly:hover { background-position:165px 12px;}
+#menu_khuyemthi li#giaoly a {padding: 15px 20px 0 100px; }
+#menu_khuyemthi li#giaoly a:hover {padding: 15px 110px 0 15px; color:white; letter-spacing:0.05em;text-align:left;
+}
+
+#menu_khuyemthi li#hatgiong{background:#FC4DA9 url(img/icon_hatgiong.png); background-position:15px 12px; background-repeat: no-repeat;}
+#menu_khuyemthi li#hatgiong:hover { background-position:155px 12px;}
+#menu_khuyemthi li#hatgiong a {padding: 15px 20px 0 100px; }
+#menu_khuyemthi li#hatgiong a:hover {padding: 15px 120px 0 5px; color:white; letter-spacing:0.05em;}
+
+#menu_khuyemthi li#nhacphatgiao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7; -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7; box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);  background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);    background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;  border:1px solid #124d77;
+	display:inline-block; 	cursor:pointer;	 text-decoration:none;  text-shadow:0px 1px 0px #154682;
+}
+#menu_khuyemthi li#nhacphatgiao:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);  background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);    background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+#menu_khuyemthi li#nhacphatgiao:active { position:relative; top:1px;}
+
+#menu_khuyemthi li#baiviethay {
+	-moz-box-shadow:inset 0px 1px 0px 0px #a6827e; 	-webkit-box-shadow:inset 0px 1px 0px 0px #a6827e; box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7d5d3b), color-stop(1, #634b30));
+	background:-moz-linear-gradient(top, #7d5d3b 5%, #634b30 100%);  background:-webkit-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:-o-linear-gradient(top, #7d5d3b 5%, #634b30 100%);	 background:-ms-linear-gradient(top, #7d5d3b 5%, #634b30 100%);
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7d5d3b', endColorstr='#634b30',GradientType=0);
+	background-color:#7d5d3b;  display:inline-block; cursor:pointer; text-decoration:none; text-shadow:3px 2px 0px #4d3534;
+}
+#menu_khuyemthi li#baiviethay:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #634b30), color-stop(1, #7d5d3b));
+	background:-moz-linear-gradient(top, #634b30 5%, #7d5d3b 100%);  background:-webkit-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+	background:-o-linear-gradient(top, #634b30 5%, #7d5d3b 100%);    background:-ms-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#634b30', endColorstr='#7d5d3b',GradientType=0);
+	background-color:#634b30;
+}
+#menu_khuyemthi li#baiviethay:active { position:relative; top:1px;}
+
+#menu_khuyemthi li#phimphatgiao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #3dc21b; -webkit-box-shadow:inset 0px 1px 0px 0px #3dc21b; box-shadow:inset 0px 1px 0px 0px #3dc21b;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%); 	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);  	    background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;	border:1px solid #18ab29; display:inline-block;
+	cursor:pointer;	font-weight:bold;	text-decoration:none;
+	text-shadow:3px 2px 9px #2f6627;
+}
+#menu_khuyemthi li#phimphatgiao:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}
+#menu_khuyemthi li#phimphatgiao:active { position:relative; top:1px;}
+#menu_khuyemthi li#phimphatgiao a {color:white}
+
+#menu_khuyemthi li#sachdocphatgiao {
+	-moz-box-shadow:inset 0px 1px 0px 0px #276873; -webkit-box-shadow:inset 0px 1px 0px 0px #276873; box-shadow:inset 0px 1px 0px 0px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;	display:inline-block;	cursor:pointer;	font-weight:bold; text-decoration:none;
+	text-shadow:4px 4px 9px #3d768a;
+}
+#menu_khuyemthi li#sachdocphatgiao:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%); background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+#menu_khuyemthi li#sachdocphatgiao:active { position:relative; top:1px;}
+#menu_khuyemthi li#sachdocphatgiao a {color:white}
+
+
+
+/*icons_khuyenthi.php*/
+#icons_khuyemthi {}
+#icons_khuyemthi  .motmuc{width:31%; height:10em; float:left; border:solid 1px #033;
+margin: 10px 10px 10px 10px;
+}
+#icons_khuyemthi  .motmuc img { width:100%; height:100%;
+-webkit-transition: all 0.5s ease; transition: all 0.5s ease;
+}
+#icons_khuyemthi  .motmuc img.hu1:hover{
+border-radius:50%;box-shadow: 0 10px 6px -6px grey;-webkit-box-shadow: 0 10px 6px -6px grey;
+}
+#icons_khuyemthi  .motmuc img.hu2:hover{
+-webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+#icons_khuyemthi  .motmuc img.hu3:hover{
+-webkit-box-shadow: 0 10px 10px -6px #004A23; box-shadow: 0 10px 10px -6px #004A23;
+border-radius:50%; opacity: 0.8;
+-webkit-transform: rotate(360deg);transform: rotate(360deg);
+}
+
+#icons_khuyemthi  .motmuc span {position:relative; top:-4em; left:0.5em; font-size:Noto Serif; 
+font-size:1.8em; color: #FF0000; display:block; text-indent:-1em; text-transform:capitalize;
+text-align:center; font-weight:bold;
+}
+#icons_khuyemthi  .txt2 span {color:yellow;}
+#icons_khuyemthi  .txt3 span {color:darkblue;} 
+#icons_khuyemthi  span:contains('phim') {color:darkblue;}
+
+.playlists p {margin: 10px 0 10px 20px; padding:5px 0 5px 0; 
+background-image:url(img/foward.gif); background-repeat:no-repeat;background-position:1px 10px }
+.playlists p a { margin-left:25px;  color:#006633; font-family:Noto Serif; font-size:18px; }
+.playlists img.nghenhac {position:relative; top:2px; left:3px;
+-webkit-transition: -webkit-transform .8s ease-in-out; transition: transform .8s ease-in-out;
+}
+.playlists img.nghenhac:hover{-webkit-transform: rotate(360deg); transform: rotate(360deg);}
+
+/* detail_kt.php */
+#detail_kt {margin-left:10px; margin-right:10px;}
+#detail_kt  h1.tieude {font-size:20px; color:#26A2BC; margin:15px 0 15px 0;}
+#detail_kt  h2.tomtat {font-size:18px; line-height:2em; color:#3A4145; font-weight:normal; 
+font-family:Noto Serif; text-align:justify;}
+#detail_kt  hr {margin:15px 0 15px 0}
+#detail_kt  #noidung {font-size:18px; line-height:2em; color:#2b2b2b; font-family:Noto Serif; text-align:justify; }
+#detail_kt #baitieptheo p {margin:15px 0 15px 0px;
+	background-image:url(img/foward.gif); 
+	background-repeat:no-repeat;background-position:3px 3px;
+	padding-left:25px;
+ }
+ #detail_kt #baitieptheo a { color:#039}
+ #detail_kt #baitieptheo a:hover { color:#9F005D; font-weight:bold; }
+ 
+#thanhphantrang { margin:20px 0; text-align:left; clear:both; font-family:Noto Serif; font-size:1.1em}
+#thanhphantrang a { color:#FF0; font-weight:bold; text-decoration:none; 
+	margin-right:5px; margin-left:5px; padding-left:15px; padding-right:15px;
+	padding-top:6px; padding-bottom:6px; background-color:#033;
+	border-radius:15px;  }
+#thanhphantrang span { color:#FFF; font-weight:bold; text-decoration:none; 
+	margin-right:5px; margin-left:5px; padding-left:15px; padding-right:15px;
+	padding-top:6px; padding-bottom:6px; background-color:#13A1CB;
+	border-radius:15px;}
+#thanhphantrang a:hover { color:#0F6; background-color:#930}
+
+/* lienhe.php */
+#tranglienhe { margin:40px; 
+border: 5px solid #ff671f; border-radius:5px; }
+#tranglienhe h1 {background-color: #ff671f; color:white;  height:40px; line-height:40px; 
+	padding:0 0 0 10px; text-transform:uppercase; margin:0px; font-size:18px;  }
+#tranglienhe  h2{margin:20px 20px 0 20px ; font-size:18px;color:#00665E; line-height:200% }
+#tranglienhe  p { margin:25px; color:#FF671F; font-weight:bold}
+#tranglienhe  p.bando {margin-top:40px;}
+#tranglienhe  p a{ color:#00665E; font-weight:bold}
+#tranglienhe  p a:hover{font-style:italic; text-transform:capitalize}
+
+.tosang {font-size:20px; background-color:red; color:white}
+
+/* ducphat.php*/
+#bvducphat{
+font-size:18px; font-family: "Noto Serif","Times New Roman",Arial,Tahoma;
+line-height:200%; text-align:justify;
+padding: 30px;
+}
+#bvducphat h1.tieude {
+font-size:22px; margin:10px 0 0 0px;
+}
+#bvducphat h2.tomtat {
+font-size:18px; font-style:italic; line-height:200%; font-weight:normal; margin:10px 0;
+}

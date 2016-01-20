@@ -1,0 +1,68 @@
+#lich .caption{
+	color:#993300;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-top:8px;
+	background-color:#CCFF66;
+	padding:5px;
+	font-size:16px;
+}
+.tennam {
+	text-align:center; 
+	font-weight:bold; color:#000000; background-color: #CCCCCC}
+.thang {
+    font-family:"Times New Roman", Times, serif
+	font-size: 12pt;
+	table-layout:fixed;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+.thang td{ border-color:#559650; border-width:1px; padding:3px; 
+border-bottom:solid 1px #033; border-right:solid 1px #033;}
+.tenthang {
+	text-align:center;
+	color:#13520A;
+	background-color: #CCFFCC;
+	font-weight:bold;
+	padding-top:4pt;
+	padding-bottom:4pt;
+}
+.navi-l , .navi-r {
+	text-align:center;
+	background-color: #CCFFCC;
+}
+.navi-l  a, .navi-r  a{
+	text-decoration:none;
+	color:#0D5810;
+	font-weight:bold;
+}
+.navi-l  a:hover, .navi-r  a:hover{
+	text-decoration:underline;
+	color:#069;
+}
+.ngaytuan {
+	width:14%;
+	text-align:center;
+	color:#069;
+	background-color: #FFFFCC;
+	font-weight:bold;
+	padding-top:4pt;
+	padding-bottom:4pt;
+}
+.ngaythang {background-color:#FFFFCC}
+  .homnay {background-color:#FFFF00}
+  .tet {background-color:#FFCC99}
+  .am {
+	text-align:right;
+	color:rgb(15, 122, 28)
+}
+  .am2 {
+	text-align:right;
+	color:#004080
+}
+  .t2t6 {text-align:left;color:black}
+  .t7 {text-align:left;color:green}
+  .cn {text-align:left;color:red}

@@ -1,0 +1,20 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.timhieudaophat\.vn$ [NC]
+RewriteRule ^(.*)$ http://timhieudaophat.vn/$1 [R=301,L] 
+
+RewriteBase /
+
+RewriteRule ^_thumbs - [L]
+RewriteRule ^css - [L]
+RewriteRule ^img - [L]
+RewriteRule ^hinh-bai-viet - [L]
+RewriteRule ^js - [L]
+RewriteRule ^hinh - [L]
+RewriteRule ^mp3/ - [L]
+RewriteRule ^BingSiteAuth.xml$ - [L]
+AddDefaultCharset UTF-8
+
+
+
+RewriteRule (.*) trangchu.php [L]
