@@ -1,0 +1,22 @@
+1. Chép folder _thienquang vào c:\xampp\htdocs
+2. Tạo database thienquang và import dữ liệu từ file thienquang.sql
+3. Vào:\xampp\apache\conf\extra
+4. Dùng notepad++ để mở file    httpd-vhosts.conf
+5. Thêm đoạn code sau vào cuối file và lưu lại
+
+	  <VirtualHost *>
+		DocumentRoot "c:\xampp\htdocs\__thienquang"
+		ServerName thienquang.vn
+	  </VirtualHost> 
+	 
+
+
+
+	 
+6. Mở Notepad++ bằng quyền administrator
+7. Nhắp File=>Open đê mở file c:\Windows\System32\drivers\etc\hosts
+8. Thêm code sau vào cuối file và lưu lại
+		127.0.0.1 thienquang.vn
+
+9. Mở trình duyệt và gõ thienquang.vn 
+10. Vào quản trị : Mở trình duyệt và gõ thienquang.vn/quantri
